@@ -1,0 +1,20 @@
+
+
+{
+  "short_name": "lionel crack",
+  "name": "lionel peliculas",
+  "icons": [
+    {
+      "src": "lio.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#color",
+  "theme_color": "#color",
+  "display": "standalone",
+  "orientation": "portrait"
+}
+
+
