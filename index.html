@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Configuración PWA para Celulares -->
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#000000">
-<meta name="mobile-web-app-capable" content="yes">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RecomiendaYa - App de Recomendaciones</title>
     <link rel="stylesheet" href="style.css">
-     <!-- 1. Primero se inicializa la conexión -->
-  <script src="supabaseClient.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+    <meta name="mobile-web-app-capable" content="yes">
 
-
-  <!-- 2. Después se ejecuta la lógica del formulario que usa la variable 'supabase' -->
-  <script src="main.js"></script></body>
-
+    <!-- 1. Cargar primero la librería oficial de Supabase desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
 
@@ -126,6 +120,8 @@
     <footer>
         <p>Proyecto App de Recomendaciones - 2026</p>
     </footer>
-
+<!-- 2. Inicialización de tu cliente y lógica del formulario -->
+    <script src="supasebaseClient.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
